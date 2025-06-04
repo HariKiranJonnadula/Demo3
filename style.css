@@ -1,0 +1,52 @@
+body{
+    background: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg)no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-box{
+    background-color: rgb(57, 59, 59);
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.login-box input[type ="email"],
+.login-box input[type = "password"] {
+
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.checkbox{
+    display: block;
+    text-align: left;
+    margin: 10px;
+    font-size: 14px;
+}
+.checkbox a{
+    color: #f1c40f;
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
